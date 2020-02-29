@@ -1,0 +1,9 @@
+public abstract class AbstractClassWeek2 {
+    private String Student;
+    
+    public virtual string GetName(){
+        return Student;
+    }
+    
+    abstract void SetName(string Name);
+}

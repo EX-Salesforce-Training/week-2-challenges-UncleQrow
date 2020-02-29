@@ -1,0 +1,28 @@
+ublic class FinalClassWeek2 extends AbstractClassWeek2{
+    public String Message { get; set;}
+    public Integer score { get; set;}
+    public Date CompletionDate { get; set;}
+    String Nickname;
+    public FinalClassWeek2(){
+        This('Goodbye');
+    }
+    public FinalClassWeek2(String M){
+        This('Thanks for Being Awsome', 80);
+    }
+    public FinalClassWeek2(String M, Integer s){
+        This(M, S, Date.today());
+    }
+    public FinalClassWeek2(String M, Integer s, Date d)
+    {
+        Message = m;
+        score = s;
+        CompletionDate = d;
+    }
+    
+    public override string GetName(){
+        return Nickname;
+    }
+    public void SetName(string Name){
+        Nickname = Name;
+    }
+}
